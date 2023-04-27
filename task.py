@@ -10,6 +10,8 @@ bearer_token = "AAAAAAAAAAAAAAAAAAAAACDmlwEAAAAAAXHbH2T%2Bqf8xuxRr5NjYF0wNFf0%3D
 access_token = ""
 access_token_secret = "uOC0ZmxvYzi46RGZVHxPuBlHLcna4e5cv2rR04Mc9abWQ"
 
+//will improved using dot env and integrated CHATGPT API 
+
 auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_token_secret)
 api = tweepy.API(auth)
 
