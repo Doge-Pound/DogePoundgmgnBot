@@ -4,11 +4,11 @@ import requests
 from io import BytesIO
 
 # Credentials (Insert your keys and tokens below)
-api_key = "WKknO8hnOFoV7OlAuwrs57dVI"
-api_secret = ""
-bearer_token = "AAAAAAAAAAAAAAAAAAAAACDmlwEAAAAAAXHbH2T%2Bqf8xuxRr5NjYF0wNFf0%3DPUPofltQPEGjGNoit13xh3taVHwJpVbNw1sU8UVMDk8UgDFPfW"
-access_token = ""
-access_token_secret = "uOC0ZmxvYzi46RGZVHxPuBlHLcna4e5cv2rR04Mc9abWQ"
+api_key = "updatethekeys"
+api_secret = "updatethekeys"
+bearer_token = "updatethekeys"
+access_token = "updatethekeys"
+access_token_secret = "updatethekeys"
 
 //will improved using dot env and integrated CHATGPT API 
 
@@ -41,7 +41,7 @@ while True:
                         reply_to_id = tweet.id
 
                     id = text.split()[-1]
-                    url = f"https://tubercular-milligra.000webhostapp.com/Dogen/{id}.png"
+                    url = f"https://d3cvnrw4bpahxk.cloudfront.net/thedogepound/gn/{id}.png"
                     response = requests.get(url)
                     if response.status_code == 200:
                         # If the image is successfully fetched, reply with the image and message
@@ -61,7 +61,7 @@ while True:
                         reply_to_id = tweet.id
 
                     id = text.split()[-1]
-                    url = f"https://tubercular-milligra.000webhostapp.com/Doge/{id}.png"
+                    url = f"https://d3cvnrw4bpahxk.cloudfront.net/thedogepound/gm/{id}.png"
                     response = requests.get(url)
                     if response.status_code == 200:
                         # If the image is successfully fetched, reply with the image and message
